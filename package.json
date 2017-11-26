@@ -1,18 +1,26 @@
 {
-  "name": "json-server",
+  "name": "jsonserver",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple JSON Server Example",
+  "main": "generate-events.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaluvadis/jsonserver.git"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Surendra Chaluvadi <surendra.chaluvadi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaluvadis/jsonserver/issues"
+  },
+  "homepage": "https://github.com/chaluvadis/jsonserver#readme",
   "dependencies": {
-    "chance": "1.0.6",
-    "faker": "^4.1.0",
-    "lodash": "^4.17.4",
-    "moment": "2.18.1"
+    "chance": "1.0.12",
+    "faker": "4.1.0",
+    "lodash": "4.17.4",
+    "moment": "2.19.2"
   }
 }

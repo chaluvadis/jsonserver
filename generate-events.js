@@ -1,4 +1,4 @@
-module.exports = function () {
+module.exports = function() {
     var faker = require('faker');
     var _ = require('lodash');
     var moment = require('moment');
@@ -7,11 +7,11 @@ module.exports = function () {
         events: _.times(20, (n) => {
             return {
                 id: n + 1,
-                title: "Event " + (n+1).toString(),
+                title: "Event " + (n + 1).toString(),
                 description: faker.lorem.paragraph(),
-                allDay:false,
+                allDay: false,
                 start: moment(new Date()).add(n, 'd'),
-                end: moment(new Date()).add(n, 'd').add(1,'h'),
+                end: moment(new Date()).add(n, 'd').add(1, 'h'),
                 stick: true
             }
         })
