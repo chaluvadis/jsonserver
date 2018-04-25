@@ -14,17 +14,30 @@ module.exports = function() {
         fullName: suffix + ". " + firstName + " " + lastName,
         email: lastName + "." + firstName + "@speakers.com",
         expertsIn: [
-          faker.random.arrayElement([
-            "JavaScript",
-            "TypeScript",
-            "CoffeeScript"
-          ]),
-          faker.random.arrayElement([
-            "Web Application",
-            "Mobile Applications",
-            "Single Page Application"
-          ]),
-          faker.random.arrayElement(["c#", "Asp.Net", "Asp.Net Core"])
+          {
+            id: 1,
+            exprets: faker.random.arrayElement([
+              "JavaScript",
+              "TypeScript",
+              "CoffeeScript"
+            ])
+          },
+          {
+            id: 2,
+            exprets: faker.random.arrayElement([
+              "Web Application",
+              "Mobile Applications",
+              "Single Page Application"
+            ])
+          },
+          {
+            id: 3,
+            exprets: faker.random.arrayElement([
+              "c#",
+              "Asp.Net",
+              "Asp.Net Core"
+            ])
+          }
         ],
         city: faker.address.city(),
         state: faker.address.state(),
