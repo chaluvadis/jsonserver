@@ -4,6 +4,6 @@ Simple JSON Server Example
 
 2) npm install to install the application dependencies
 
-3) json-server generate.js 
+3) json-server generate.js
 
-api will be available at localhost:3000
+api will be available at localhost:3001
