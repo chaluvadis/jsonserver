@@ -18,11 +18,10 @@
   },
   "homepage": "https://github.com/chaluvadis/jsonserver#readme",
   "dependencies": {
-    "aws-sdk": "2.228.1",
-    "chance": "1.0.12",
-    "faker": "4.1.0",
-    "jsonfile": "4.0.0",
-    "lodash": "4.17.4",
-    "moment": "2.19.2"
+    "chance": "1.1.7",
+    "faker": "5.1.0",
+    "jsonfile": "6.1.0",
+    "lodash": "4.17.20",
+    "moment": "2.29.1"
   }
 }
